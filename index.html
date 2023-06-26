@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Nucleus-Final-WebGl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Nucleus-Final-WebGl.data",
-        frameworkUrl: buildUrl + "/Nucleus-Final-WebGl.framework.js",
-        codeUrl: buildUrl + "/Nucleus-Final-WebGl.wasm",
+        dataUrl: buildUrl + "/Nucleus-Final-WebGl.data.unityweb",
+        frameworkUrl: buildUrl + "/Nucleus-Final-WebGl.framework.js.unityweb",
+        codeUrl: buildUrl + "/Nucleus-Final-WebGl.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Nucleus",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Nucleus-Final-WebGl.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Nucleus-Final-WebGl.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
